@@ -9,10 +9,15 @@ function Header() {
 return (
 	
 		<header>
-		
-			<div className="logo">
-				Max Horner, Computer Science Student @ The Ohio State University
+		<div className ="logo">
+			<div className="name">
+				Max Horner
 			</div>
+			
+			<div className="student">
+				Computer Science Student @ The Ohio State University
+			</div>
+		</div>
 		
 			<nav>
 				<ul>
