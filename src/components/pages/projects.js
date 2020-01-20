@@ -43,7 +43,7 @@ return (
 		<p>
 		At OSU, I have completed many projects for my Computer Science classes. One of these projects was an 
 		implementation of a Java Class to represent all Natural Numbers using String as the data representation.
-		I have done many more projects at OSU and I would love to talk about the multitude of skills I have learned. If interested, please contact me. 
+		I have done many more projects at OSU and I would love to talk about the multitude of skills I have learned. If interested, please contact me.
 		</p>
 		
 		<img src={java}width="5%"height="5%"hspace="8"alt=""/>
