@@ -26,9 +26,9 @@ class App extends React.Component {
 			
 			<Header /> 
 			
-			<Route exact path={process.env.PUBLIC_URL + '/portfolio-website/'} component={Homepage}/>
-			<Route exact path={process.env.PUBLIC_URL +'/portfolio-website/Projects'} component={Projects}/>
-			<Route exact path={process.env.PUBLIC_URL +'/portfolio-website/Contact'} component={Contact}/>
+			<Route exact path={process.env.PUBLIC_URL + '/'} component={Homepage}/>
+			<Route exact path={process.env.PUBLIC_URL +'/Projects'} component={Projects}/>
+			<Route exact path={process.env.PUBLIC_URL +'/Contact'} component={Contact}/>
 		
 		
 		</div>
