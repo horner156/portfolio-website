@@ -15,20 +15,28 @@ import Contact from './components/pages/contact';
 //includes
 import './Assets/CSS/default.css';
 
-function App() {
-return (
-	<Router>
-	<div className="App">
-
-		<Header /> 
-			<Route path={process.env.PUBLIC_URL + '/'} component={Homepage}/>
-			<Route path={process.env.PUBLIC_URL +'/Projects'} component={Projects}/>
-			<Route path={process.env.PUBLIC_URL +'/Contact'} component={Contact}/>
+class App extends React.Component {
+	
+	
+	render(){
+		var p = process.env.PUBLIC_URL;
+	return (
+		<Router>
+		<div className="App">
+			
+			<Header /> 
+			<div>
+				Hello, {p}!
+			</div>
+			<Route exact path={process.env.PUBLIC_URL + '/'} component={Homepage}/>
+			<Route exact path={process.env.PUBLIC_URL +'/Projects'} component={Projects}/>
+			<Route exact path={process.env.PUBLIC_URL +'/Contact'} component={Contact}/>
 		
 		
-	</div>
-	</Router>
-);
+		</div>
+		</Router>
+	);
+	}
 }
 
 export default App;
