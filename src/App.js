@@ -21,9 +21,9 @@ return (
 	<div className="App">
 
 		<Header /> 
-			<Route exact path='/' component={Homepage}/>
-			<Route exact path='/Projects' component={Projects}/>
-			<Route exact path='/Contact' component={Contact}/>
+			<Route exact path={process.env.PUBLIC_URL + '/'} component={Homepage}/>
+			<Route exact  path={process.env.PUBLIC_URL +'/Projects'} component={Projects}/>
+			<Route exact  path={process.env.PUBLIC_URL +'/Contact'} component={Contact}/>
 		
 		
 	</div>
