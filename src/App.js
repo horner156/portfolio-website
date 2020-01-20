@@ -19,18 +19,16 @@ class App extends React.Component {
 	
 	
 	render(){
-		var p = process.env.PUBLIC_URL;
+		
 	return (
 		<Router>
 		<div className="App">
 			
 			<Header /> 
-			<div>
-				Hello, {p}!
-			</div>
-			<Route exact path={process.env.PUBLIC_URL + '/'} component={Homepage}/>
-			<Route exact path={process.env.PUBLIC_URL +'/Projects'} component={Projects}/>
-			<Route exact path={process.env.PUBLIC_URL +'/Contact'} component={Contact}/>
+			
+			<Route exact path={process.env.PUBLIC_URL + '/portfolio-website/'} component={Homepage}/>
+			<Route exact path={process.env.PUBLIC_URL +'/portfolio-website/Projects'} component={Projects}/>
+			<Route exact path={process.env.PUBLIC_URL +'/portfolio-website/Contact'} component={Contact}/>
 		
 		
 		</div>
