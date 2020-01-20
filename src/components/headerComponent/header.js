@@ -17,13 +17,13 @@ return (
 			<nav>
 				<ul>
 					<li className="first">
-						<Link to="/portfolio-website/">Home</Link>
+						<Link to="/">Home</Link>
 					</li>
 					<li>
-						<Link to="/portfolio-website/Projects">Projects</Link>
+						<Link to="/Projects">Projects</Link>
 					</li>
 					<li className="last">
-						<Link to="/portfolio-website/Contact">Contact</Link>
+						<Link to="/Contact">Contact</Link>
 					</li>
 				</ul>
 			</nav>

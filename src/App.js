@@ -1,9 +1,12 @@
 import React from 'react';
+
 import{
 	BrowserRouter as Router,
 	Route,
 	Link
 }from 'react-router-dom';
+
+
 
 //Components
 import Header from'./components/headerComponent/header';
@@ -18,21 +21,27 @@ import './Assets/CSS/default.css';
 class App extends React.Component {
 	
 	
+	
 	render(){
 		
-	return (
-		<Router>
-		<div className="App">
+		
+		 
+		return (
+		
+			<Router  
+			basename ={process.env.PUBLIC_URL}>
+				<div className="App">
 			
-			<Header /> 
+					<Header /> 
 			
-			<Route exact path={process.env.PUBLIC_URL + '/'} component={Homepage}/>
-			<Route exact path={process.env.PUBLIC_URL +'/Projects'} component={Projects}/>
-			<Route exact path={process.env.PUBLIC_URL +'/Contact'} component={Contact}/>
+					<Route exact path={'/'} component={Homepage}/>
+					<Route exact path={'/Projects'} component={Projects}/>
+					<Route exact path={'/Contact'} component={Contact}/>
 		
 		
-		</div>
-		</Router>
+				</div>
+			</Router>
+		
 	);
 	}
 }
