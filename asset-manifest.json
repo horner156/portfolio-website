@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.f3d757ef.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.663bddd2.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.663bddd2.chunk.js.map",
+    "main.css": "/portfolio-website/static/css/main.47932134.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.f6a17133.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.f6a17133.chunk.js.map",
     "runtime-main.js": "/portfolio-website/static/js/runtime-main.a694116e.js",
     "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.a694116e.js.map",
     "static/js/2.91cd0083.chunk.js": "/portfolio-website/static/js/2.91cd0083.chunk.js",
     "static/js/2.91cd0083.chunk.js.map": "/portfolio-website/static/js/2.91cd0083.chunk.js.map",
     "index.html": "/portfolio-website/index.html",
-    "precache-manifest.eacbcdcb282c641a43494dfced11dcbf.js": "/portfolio-website/precache-manifest.eacbcdcb282c641a43494dfced11dcbf.js",
+    "precache-manifest.8b6f4ec31a5a723925194ce6caaf00b7.js": "/portfolio-website/precache-manifest.8b6f4ec31a5a723925194ce6caaf00b7.js",
     "service-worker.js": "/portfolio-website/service-worker.js",
-    "static/css/main.f3d757ef.chunk.css.map": "/portfolio-website/static/css/main.f3d757ef.chunk.css.map",
+    "static/css/main.47932134.chunk.css.map": "/portfolio-website/static/css/main.47932134.chunk.css.map",
     "static/js/2.91cd0083.chunk.js.LICENSE": "/portfolio-website/static/js/2.91cd0083.chunk.js.LICENSE",
     "static/media/gulp.svg.png": "/portfolio-website/static/media/gulp.svg.75495e79.png",
     "static/media/osu-logo.jpg": "/portfolio-website/static/media/osu-logo.5a942505.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.a694116e.js",
     "static/js/2.91cd0083.chunk.js",
-    "static/css/main.f3d757ef.chunk.css",
-    "static/js/main.663bddd2.chunk.js"
+    "static/css/main.47932134.chunk.css",
+    "static/js/main.f6a17133.chunk.js"
   ]
 }
