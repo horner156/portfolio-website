@@ -8,12 +8,16 @@ import java from "./java.png";
 
 function Projects() {
 return (
-	<div className="container-fluid">
 	
+	
+	<div className="container-fluid">
+
 	
 		<h1>
 		Projects
 		</h1>
+	
+		
 		
 		<p/>
 		
