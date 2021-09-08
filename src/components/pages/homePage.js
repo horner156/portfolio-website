@@ -12,10 +12,9 @@ return (
 		</h1>
 		
 		<p>
-		 &nbsp;&nbsp;&nbsp;&nbsp; I started programming during my freshman year of highschool and as of right now I am 2 years from graduation at Ohio State. In highschool, I was president of the Computer Science Club,
-		 where we taught new students of Computer Science the basics of Java. I am now seeking an internship where more experienced programmers will offer me the same type of guidance.
-		 Most of my programming experience is in Java, but programming is a true passion of mine and I am dedicated to learning whatever it takes to be effective on the job. 
-		I have always strived for academic excellence, and now that Computer Science is the basis of my education, I am dedicated to honing my skills in whatever ways possible. 
+		 &nbsp;&nbsp;&nbsp;&nbsp; I started programming during my freshman year of highschool and as of right now I am 2 semesters from graduation at Ohio State. In highschool, I was president of the Computer Science Club,
+		 where we taught new students of Computer Science the basics of Java. I am now seeking a full time opportunity where more experienced programmers will offer me the same type of guidance.
+		 Most of my programming experience is in Java and C#, but through my education at OSU I have used C and x86 Assembly extensively. As a student here, it is expected that I can work within new languages and frameworks, so I am prepared to adapt to anything. Check out the Projects page to see what I have been doing at OSU.
 		</p>
 		
 		
